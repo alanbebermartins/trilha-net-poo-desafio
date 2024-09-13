@@ -8,10 +8,10 @@ nokia.Ligar();
 nokia.ReceberLigacao();
 nokia.InstalarAplicativo("WhatsApp");
 
-// Console.WriteLine("\n");
+Console.WriteLine("\n");
 
-// Console.WriteLine("Smartphone IPhone:");
-// Smartphone iphone = new Iphone(numero: "5678", modelo: "Modelo 16", imei: "263928492", memoria: 256);
-// iphone.Ligar();
-// iphone.ReceberLigacao();
-// iphone.InstalarAplicativo("TikTok");
+Console.WriteLine("Smartphone IPhone:");
+Smartphone iphone = new Iphone(numero: "(71) 97432-2434", modelo: "IPhone 16 512GB", imei: "350929211185802", memoria: 512);
+iphone.Ligar();
+iphone.ReceberLigacao();
+iphone.InstalarAplicativo("TikTok");
